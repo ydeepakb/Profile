@@ -105,11 +105,17 @@ It is a simple [Next.js](https://nextjs.org/) in [GitHub](https://github.com/). 
 	Both of the above will be a one time thing.
 
 [^1]:  [How To Build A Blog With Next And MDX by Ibrahima Ndaw](https://www.smashingmagazine.com/2020/09/build-blog-nextjs-mdx/)
-[^2]:  I say text but you can use [Markdown](https://en.wikipedia.org/wiki/Markdown) and mix it up with plain ol' HTML or even add [React](https://reactjs.org/) because the pages are [MDX](https://mdxjs.com/)
-[^3]: [Who Owns Your Content Online?](https://www.socialmediatoday.com/content/who-owns-your-content-online)
-[^4]: You are free to buy your domain name from any of the available providers
-[^5]: Go to https://metatags.io/ to get metadata tags for your website and go [here](https://ahrefs.com/blog/seo-meta-tags/) to learn about what they mean
-[^6]: https://www.goatcounter.com/ is a good option for free and easy web analytics without tracking of personal data
-[^7]: Refer to https://notion-blog.now.sh/, if you want to learn about deploying your website using Notion.
-[^8]: GitHub and GitHub Desktop training video here: https://www.youtube.com/watch?v=C69-s2o9wqw
 
+[^2]:  I say text but you can use [Markdown](https://en.wikipedia.org/wiki/Markdown) and mix it up with plain ol' HTML or even add [React](https://reactjs.org/) because the pages are [MDX](https://mdxjs.com/)
+
+[^3]: [Who Owns Your Content Online?](https://www.socialmediatoday.com/content/who-owns-your-content-online)
+
+[^4]: You are free to buy your domain name from any of the available providers
+
+[^5]: Go to https://metatags.io/ to get metadata tags for your website and go [here](https://ahrefs.com/blog/seo-meta-tags/) to learn about what they mean
+
+[^6]: https://www.goatcounter.com/ is a good option for free and easy web analytics without tracking of personal data
+
+[^7]: Refer to https://notion-blog.now.sh/, if you want to learn about deploying your website using Notion.
+
+[^8]: GitHub and GitHub Desktop training video here: https://www.youtube.com/watch?v=C69-s2o9wqw
