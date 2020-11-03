@@ -1,0 +1,148 @@
+import Projects from "../../components/Projects";
+
+export const meta = [{
+  number:1,
+  name: 'ProagQuote',
+  location:'Proag - Houston(TX)',
+  period:'From Jun 2020 to Present',
+  teamSize:'5',
+  description:`ProagQuote is an application to provide quotes
+                having different premium values to corp producer
+                Team.`,
+  technologies:['asp.net Mvc', 'KendoUI', 'Web Services','sql server Project'],
+  roles:['Onsite coordinator and lead engineer'],
+  responsibilities:['Coding', 'Unit Testing', 'Client interaction','Deployment', 
+  'Bug Fixing', 'Impact Analysis', 'Design discussion', 'Team leading activities', 
+  'Release Management']
+},{
+    number:2,
+  name: 'Global Travel Australia',
+  location:'TMHCC - Houston(TX)',
+  period:'From Feb 2020 to Jun 2020',
+  teamSize:'15',
+  description:`Global travel Australia has B2C and PAS portal to buy policies and manage them.`,
+  technologies:['Angular 8', 'asp.net Mvc', 'Web Services'],
+  roles:['Onsite coordinator and lead engineer'],
+  responsibilities:['Coding', 'Unit Testing', 'Client interaction','Deployment', 
+  'Bug Fixing', 'Impact Analysis', 'Design discussion', 'Team leading activities'
+ ]
+},
+{
+    number:3,
+  name: 'Safe-auto -Quote and Bind Portal',
+  location:'Majesco - Mumbai',
+  period:'From Sept 2017 to Jan 2020',
+  teamSize:'15',
+  description:`Safe-auto platform quote bind is a web based
+                application which serves as a primary quoting
+                system for the end users willing to opt Safe-auto as
+                their auto insurance provider. Project scope is to
+                rewrite the existing quoting system as per the new
+                business strategy requirement and upgrading the
+                current technology stack. Latest features of
+                Angular 4/5 have been used to give enhanced
+                user experience.`,
+  technologies:['Angular 6', 'asp.net MVC', 'Web APIs' , 'SQL'],
+  roles:['Application Developer'],
+  responsibilities:['Coding', 'Unit Testing', 'Client interaction',
+'3rd party services integration', 'Bug Fixing', 'Impact Analysis', 'Design discussion',
+ 'Team leading activities' 
+ ]
+},
+ {
+     number:4,
+  name: 'GST Bolton',
+  location:'Deloitte - Mumbai',
+  period:'From Feb2017 to Sep 2017',
+  teamSize:'12',
+  description:`This a tool to compile and transform the legacy
+                tax system to newly
+                enforced GST regime. It has form 26 AS
+                implementation module, that
+                deals with managing books of accounts and
+                different ledger entities.`,
+  technologies:['Asp.net MVC', 'c#', 'Angular', 'Jquery', 'Javascript', 'Sql Server'],
+  roles:['Application Developer'],
+  responsibilities:['Coding', 'Unit Testing', 'Deployment', 'Bug Fixing',
+'Impact Analysis', 'Design discussion'
+ ]
+},
+{
+    number:5,
+  name: 'HCP-community portal (DaVita and HealthCare Partners)',
+  location:'CitiusTech - Mumbai',
+  period:'From May 2016 to Jan 2017',
+  teamSize:'12',
+  description:`Solution developed for fulwell . IT provides various
+                reports and information related to healthcare
+                entities, including patients, providers and various
+                tests and lab results including demographic data.`,
+  technologies:['Asp.net MVC', 'c#', 'Jquery', 'Javascript', 'Sql Server'],
+  roles:['Application Developer'],
+  responsibilities:['Coding', 'Unit Testing', 'Deployment', 'Bug Fixing',
+'Impact Analysis'
+ ]
+},
+{
+    number:6,
+  name: 'MSC-Azure',
+  location:'CitiusTech - Mumbai',
+  period:'From Jan2016 to May 20167',
+  teamSize:'12',
+  description:`Solution developed to transform big data coming
+                from EMR and CPS application, Utilizes Azure
+                infrastructure and scalability of Hadoop to store
+                and process healthcare data. Main aim of project
+                is to increase the performance by reducing data
+                migration overhead and considering minimal
+                information loss.`,
+  technologies:['Azure Data Factory', 'Hadoop(HDInsight)', 'Hive', 'c#','Jquery', 'JavaScript'],
+  roles:['Application Developer'],
+  responsibilities:[`Writing hive queries and power-shell scripts to migrate data from native sql databases to azure cloud`
+ ]
+},
+{
+    number:7,
+  name: 'IET Electrical Standards Plus',
+  location:'Rave Technologies - Mumbai',
+  period:'From Mar 2014 to Dec 2015',
+  teamSize:'25',
+  description:`IET Web portal is entirely responsive, portal has
+                catalogue view of different books and online
+                journals by which one can buy subscription, renew
+                subscription, make online payment, download
+                books, Admin user can add users in its account
+                and make them active or inactive, add Edit user
+                and reset there passwords, detailed account
+                reports can be seen, Users have got limited
+                access of portal based on their roles, Portals also
+                provides provision to change account password,
+                All user activities have been logged .I was
+                involved right from requirement gathering phase
+                till delivery of the new application.`,
+  technologies:['Web forms', 'HTML5', 'Javascript', 'Jquery', 'AngularJs',
+'Marklogic DB','SQL server'],
+  roles:['Application Developer'],
+  responsibilities:['Requirement Analysis', 'Design plan', 'Coding', 'Unit Testing', 'Deployment', 'Bug Fixing', 'Impact Analysis',
+'Client Interaction']
+},
+{
+    number:8,
+  name: 'Hargreaves - Mini Account View Portal-UK',
+  location:'Rave Technologies - Mumbai',
+  period:'From Oct 2013 to Feb 2013',
+  teamSize:'5',
+  description:`Project manages records of stock and
+                shares ,portfolio, linked account, cash details,
+                transaction history, pending orders ,login
+                authentication.`,
+  technologies:['HTML 5','css','jquery','javascript','Php (Zend framework 2.0)'],
+  roles:['Application Developer'],
+  responsibilities:['Development and unit testing']
+}
+];
+
+
+
+export default ({ children }) => <Projects meta= { meta }>{children}</Projects>;
+

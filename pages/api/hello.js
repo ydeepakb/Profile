@@ -2,5 +2,5 @@
 
 export default (req, res) => {
   res.statusCode = 200
-  res.json({ name: 'Deepak (The CodeTweak Worm)' })
+  res.json({ name: 'Deepak (The CodeTweak)' })
 }
